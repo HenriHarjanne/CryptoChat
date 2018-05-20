@@ -99,7 +99,7 @@ const AuthService = new AuthServiceImpl();
 
 
 const config = {
-
+	//stuffhere
 }
 
 firebase.initializeApp(config)
