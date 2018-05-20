@@ -1,0 +1,54 @@
+body{
+  background-color: #000;
+  color: #00FF00;
+  font-family: 'VT323', monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+input{
+  background-color: transparent !important;
+  border: 0px !important;
+  color: #00FF00 !important;
+  font-family: 'VT323', monospace !important;
+  border-color: #00FF00 !important;
+  border-bottom: 1px #00FF00 solid !important;
+}
+button{
+  background-color: transparent !important;
+  color: #00FF00 !important;
+  font-family: 'VT323', monospace !important;
+  border: 0px !important;
+}
+.messagescontainer{
+  margin-top: 50px;
+  max-height: 70vh;
+  overflow-y: scroll;
+}
+.messagecontainer{
+  margin-top:50px;
+}
+form{
+  width:100%;
+}
