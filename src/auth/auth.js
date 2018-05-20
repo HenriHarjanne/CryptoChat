@@ -99,11 +99,7 @@ const AuthService = new AuthServiceImpl();
 
 
 const config = {
-	apiKey: "AIzaSyB6_mgQUnUzSQ5PHltdJhFqLBt2btdfaos",
-	authDomain: "qcryptochat-8b386.firebaseapp.com",
-    databaseURL: "https://cryptochat-8b386.firebaseio.com",
-    storageBucket: "cryptochat-8b386",
-    messagingSenderId: "539737573140",
+
 }
 
 firebase.initializeApp(config)
